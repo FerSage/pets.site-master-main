@@ -1,0 +1,20 @@
+/* Обертка для всего контента */
+html, body {
+    height: 100vh; /* Устанавливаем высоту для всей страницы */
+    margin: 0; /* Убираем отступы */
+    display: flex; /* Используем flexbox */
+    flex-direction: column;
+    background-color: red; /* Элементы на странице будут располагаться вертикально */
+  }
+  
+  #root {
+    
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Даем основному контенту возможность занимать все доступное пространство */
+  }
+  
+  footer {
+    margin-top: auto; /* Фиксирует футер внизу страницы */
+  }
+  
